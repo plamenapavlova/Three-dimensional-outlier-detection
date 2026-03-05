@@ -37,4 +37,8 @@ The script generates two 3D scatter plots:
 1. **Original Data** (all points in black)
 2. **Outliers Detection** (inliers in black, detected outliers in red)
 
+You could extend it like this:
+
+The black points form several clusters that reflect the main structure of the dataset. These clusters represent regions where data points have similar characteristics and lie close to their neighboring observations in the feature space. In contrast, points that appear far from these dense regions are detected as outliers because they significantly differ from the local data distribution.
+
 ---
